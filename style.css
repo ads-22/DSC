@@ -2,10 +2,11 @@ html{
     height:100%;
 }
 body{
-    background: url(https://images.unsplash.com/photo-1506018565635-cb32e15febe8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
-    background-size: cover;
+  /*  background: url(https://images.unsplash.com/photo-1506018565635-cb32e15febe8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);*/
+    background-image: linear-gradient(to right,red,yellow);
+    /* background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     font-size: 2rem;
 }
 .text{
@@ -26,6 +27,17 @@ input{
 }
 #new .form-control{
     width: 50%;
+}
+ul{
+    margin-left: 10%;
+    color:rgba(243, 229, 229, 0.9);
+}
+h1{
+    text-shadow: 2px 2px red;
+    display: inline-block;
+}
+h1:hover{
+    color: rgb(244, 248, 21);
 }
 #main .navbar-brand {
     color: rgba(243, 229, 229, 0.9);
