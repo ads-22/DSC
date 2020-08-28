@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>DSC JIIT 128</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
@@ -28,7 +27,7 @@
             Name         :<input type="text" class="form-control" placeholder="Name"><br>
             Technologies :<textarea name="tech" class="form-control" cols="30" rows="2" placeholder="Technologies"></textarea><br>
             Description  :<textarea name="desc" class="form-control" cols="30" rows="5" placeholder="Description"></textarea><br>
-            <button type="submit" class="btn btn-primary">submit</button>
+            <button onclick="store()" type="submit" class="btn btn-primary">submit</button>
         </form>
         <h1 class="confirm"></h1>
     </div>
